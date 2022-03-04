@@ -4,7 +4,6 @@ import { AppContext } from "../../Context/AppProvider";
 import { useFirestore } from "../../hook/useFirestore";
 import { addDocument } from "../../firebase/services";
 import { AuthContext } from "../../Context/AuthProvider";
-import { format } from 'date-fns'
 export default function ContextChat() {
   const { messages } = React.useContext(AppContext);
   const { Content, Footer } = Layout;
