@@ -18,7 +18,7 @@ export const analytics = getAnalytics(fireware);
 export const auth = getAuth();
 export const db = getFirestore();
 
-connectAuthEmulator(auth, "http://localhost:9099");
-connectFirestoreEmulator(db, 'localhost', 8080);
+// connectAuthEmulator(auth, "http://localhost:9099");
+// connectFirestoreEmulator(db, 'localhost', 8080);
 
 export default fireware;
